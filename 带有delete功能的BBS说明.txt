@@ -1,0 +1,9 @@
+本次更新增加了delete.jsp，用以实现删除帖子功能。
+在DB.java中修改了封装，增加了新的方法，为了配合delete。
+在Index.jsp中增加了删除按钮。
+新增_SessionCheck.jsp用于管理员使用删除功能时的页面验证。
+如果未登录，则会跳转到登录界面。
+新增login-manager.jsp用于管理员登录（uid是1）。
+修改了index.jsp 同样在delete按键使用时增加了身份验证功能。
+实现后台管理功能和维护BBS健壮性。
+——赵皓天
